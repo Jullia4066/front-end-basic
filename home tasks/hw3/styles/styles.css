@@ -1,0 +1,405 @@
+body {
+    background-color: #c8c8c8;
+    margin: 0;
+    padding-left: 50px;
+}
+
+/* FIRST BANNER */
+
+#first-banner-text {
+    font-family: 'Inter';
+    size: 13px;
+    color: white;
+    display: inline-block;
+    width: 957px;
+    padding: 19px 0 0 124px;
+}
+
+#cookie-setting-btn {
+    text-decoration: underline;
+    color: #4AD295;
+    background-color: transparent;
+    border: none;
+}
+
+#first-banner {
+    background-color: #0B2239;
+    height: 72px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 1440px;
+}
+
+#accept-all-cookies-btn {
+    background-color: #4AD295;
+    border-radius: 2px;
+    color: white;
+    width: 130px;
+    height: 36px;
+}
+
+
+#first-banner-buttons {
+    display: inline-block;
+    position: relative;
+    top: -11px;
+    left: 21px;
+    font-family: 'Inter';
+    size: 12px;
+}
+
+/* SECOND BANNER */
+
+#second-banner {
+    background-color: #2B2627;
+    height: 52px;
+    width: 1440px;
+    /* margin: 50px; */
+    color: white;
+    text-align: center;
+}
+
+#second-banner img {
+    margin-left: 121px;
+}
+
+#second-banner div {
+    display: inline-block;
+}
+
+#exclamation-mark {
+    position: relative;
+    top: 6%;
+}
+
+#exclamation-image {
+    margin: 13px 0 0 400px;
+}
+
+#second-banner-text {
+    margin: 10px 0 11px 5px;
+    font-family: 'Inter';
+    size: 13px;
+}
+
+#cross-icon {
+    margin: 12px 0 0 2px;
+    position: relative;
+    top: 4px;
+    right: 114px;
+}
+
+#second-banner-text a {
+    text-decoration: underline;
+}
+
+/* THIRD BANNER */
+
+#third-banner {
+    width: 560px;
+    height: 72px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+#cookies-image-container {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(234, 76, 137, 0.1);
+    border-radius: 10px;
+    margin: 17px 13px 15px 29px;
+}
+
+#cookies-image {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 0 0 8px;
+}
+
+#third-banner-text {
+    display: inline-block;
+    color: #0D0C22;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 305px;
+    height: 40px;
+    top: 20%;
+    margin: 5px 9px;
+    position: relative;
+}
+
+#third-banner-text a {
+    color: #EA4C89;
+}
+
+#third-banner-buttons {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+#third-banner-buttons #allow-btn {
+    width: 52px;
+    height: 28px;
+    color: white;
+    background-color: #EA4C89;
+    border: none;
+    border-radius: 8px;
+}
+
+#third-banner-buttons #decline-btn {
+    width: 63px;
+    height: 28px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+/* FOURTH BANNER */
+
+#fourth-banner {
+    background-color: #26262B;
+    width: 560px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 12px 0 12px 16px;
+}
+
+#fourth-banner-text {
+    width: 492px;
+    color: white;
+    font-family: 'Avenir LT Std';
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+#fourth-banner-text a {
+    color: #E6842E;
+}
+
+#fourth-banner-buttons {
+    display: inline-block;
+}
+
+#fourth-banner-buttons #okay-btn {
+    position: relative;
+    top: -10px;
+    right: 8px;
+    width: 49px;
+    height: 28px;
+    border-radius: 8px;
+    border: none;
+}
+
+#fifth-and-sixth-banners {
+    display: inline-flex;
+}
+
+/* FIFTH BANNER */
+
+#fifth-banner {
+    padding: 24px 0 0 24px;
+    width: 332px;
+    height: 191px;
+    background-color: #1C2540;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#cookie-notice {
+    display: block;
+}
+
+#cookie-notice img {
+    padding-bottom: 10px;
+}
+
+#fifth-banner-text {
+    width: 292px;
+    padding-bottom: 17px;
+    display: inline-block;
+}
+
+#fifth-banner-text a {
+    text-decoration: underline;
+}
+
+#manage-preferences-btn {
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 0 42px 0 0;
+}
+
+#fifth-banner #accept-btn {
+    padding-right: 13px;
+    width: 85px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    background-color: #09B3AF;
+    color: white;
+}
+
+
+
+/* SIXTH BANNER */
+
+#six-banner {
+    width: 360px;
+    height: 170px;
+    background-color: white;
+    border-radius: 16px;
+    border: none;
+    padding: 16px 0 0 16px;
+    margin-left: 55px;
+}
+
+#six-banner #manage-cookies-btn {
+    height: 32px;
+    width: 160px;
+    border: none;
+    border-radius: 6px;
+    background-color: #EAF0F4;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.4px;
+    align-items: center;
+    color: #687F8C;
+}
+
+
+#six-banner #accept-all-btn {
+    height: 32px;
+    width: 160px;
+    border: none;
+    border-radius: 6px;
+    background-color: #40C1A7;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.4px;
+    align-items: center;
+    color: white;
+}
+
+#six-banner #cookie-settings {
+    padding-bottom: 10px;
+}
+
+#six-banner-text {
+    color: #687F8C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 40px 19px 9px;
+}
+
+#seven-and-eight-banners {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* SEVENTH BANNER */
+#seven-banner {
+    width: 320px;
+    height: 260px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#seven-banner-text {
+    padding: 11px 0 34px 62px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+    width: 213px;
+    height: 72px;
+}
+
+#seven-banner-header {
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-size: 28px;
+    color: #15295A;
+    padding: 36px 32px 0px 30px;
+}
+
+#seven-banner #accept-btn {
+    width: 121px;
+    height: 44px;
+    color: white;
+    background-color: #4A7EFF;
+    border: none;
+    border-radius: 43px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+/* EIGHT BANNER */
+#eight-banner {
+    width: 320px;
+    height: 137px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 55px;
+}
+
+#eight-banner-text {
+    width: 270px;
+    height: 60px;
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0 0 15px;
+}
+
+#eight-banner #accept-btn {
+    width: 64px;
+    height: 33px;
+    border-radius: 4px;
+    border: none;
+    background-color: #6666FF;
+    color: white;
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    font-size: 16px;
+    margin: 9px 0px 0 112px;
+}
+
+#eight-banner #privacy-policy-btn {
+    background-color: transparent;
+    width: 95px;
+    height: 17px;
+    border: none;
+    color: #6666FF;
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 0 15px;
+}
