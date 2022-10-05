@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+
+.grid div {
+    height: 50px;
+    border: 2px solid rgb(60, 55, 55);
+    background-color: grey;
+}
+
+.grid div:nth-child(4n + 3) {
+    background-color: red !important;
+}
+
+.grid div:nth-last-child(-n+4) {
+    background-color: blue;
+}
+
+
+button {
+    display: block;
+    background-color: rgba(68, 211, 168, 1);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 501px;
+    height: 92px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 48px;
+    padding-left: 48px;
+    position: relative;
+}
+
+button::before {
+    content: "test";
+    font-size: 8px;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    left: -50%;
+    width: 200px;
+    border-color: rgba(196, 196, 196, 1);
+    border-style: solid;
+    border-width: 2px 0 2px 0;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+button::after {
+    content: "test";
+    font-size: 8px;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    right: -50%;
+    width: 200px;
+    border-color: rgba(196, 196, 196, 1);
+    border-style: solid;
+    border-width: 2px 0 2px 0;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+button:hover {
+    cursor: pointer
+}
