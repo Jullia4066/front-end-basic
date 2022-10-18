@@ -1,0 +1,254 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FIRST TASK */
+.star-wars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background: url(../images/stars-background.jpg);
+}
+
+.sword {
+    width: 415px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 17px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+    border: 3px solid white;
+    transition: all 5s linear;
+}
+
+.sword::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: #6d4e4e;
+    z-index: -1;
+    width: 20%;
+    height: 100%;
+}
+
+.left-sword::before {
+    left: 5%;
+}
+
+.right-sword::before {
+    right: 5%;
+}
+
+.star-wars:hover>.first-sword {
+    box-shadow: 0 0 40px #0df80d;
+}
+
+.star-wars:hover>.second-sword {
+    box-shadow: 0 0 40px #00c3ff;
+    transform: rotate(50deg);
+}
+
+.star-wars:hover>.third-sword {
+    box-shadow: 0 0 40px #ff001d;
+    transform: rotate(-50deg);
+}
+
+
+
+/* SECOND TASK */
+.newton-balance-balls {
+    margin-top: 20%;
+    display: flex;
+}
+
+
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    rotate: none;
+    background: linear-gradient(57deg, rgba(131, 58, 180, 1) 0%, rgba(29, 90, 253, 1) 0%, rgba(55, 143, 25, 1) 75%);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(70deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(70deg);
+    }
+}
+
+@keyframes rotate2 {
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-70deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes rotate3 {
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate4 {
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate5 {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+
+@keyframes rotate6 {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes rotate7 {
+    25% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.newton-balance-balls {
+    position: relative;
+}
+
+.rectangle:first-child {
+    transform-origin: top center;
+    transform: rotate(70deg);
+    animation: rotate 1s infinite;
+}
+
+.rectangle:nth-child(2) {
+    transform-origin: top center;
+    animation: rotate6 1s infinite;
+}
+
+.rectangle:nth-child(3) {
+    transform-origin: top center;
+    animation: rotate5 1s infinite;
+}
+
+.rectangle:nth-child(4) {
+    transform-origin: top center;
+    animation: rotate7 1s infinite;
+}
+
+.rectangle:nth-child(5) {
+    transform-origin: top center;
+    animation: rotate4 1s infinite;
+}
+
+.rectangle:nth-child(6) {
+    transform-origin: top center;
+    animation: rotate3 1s infinite;
+}
+
+.rectangle:last-child {
+    transform-origin: top center;
+    animation: rotate2 1s infinite;
+}
