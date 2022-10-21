@@ -1,0 +1,194 @@
+body {
+    height: 100vh;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.main-container {
+    padding: 0 270px;
+}
+
+.row {
+    height: 50px;
+}
+
+.profile-info {
+    width: 1050px;
+    height: 220px;
+}
+
+.followers {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.followers div {
+    margin-right: 15px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.line {
+    width: 1050px;
+}
+
+.instagram-link {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(19, 55, 104, 1);
+}
+
+.saved-stories {
+    width: 1050px;
+    height: 170px;
+    margin-left: 2%;
+}
+
+.saved-story {
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    background-color: black
+}
+
+.stories-list {
+    margin-bottom: 0 !important;
+}
+
+.story-name {
+    margin-top: 13%;
+}
+
+.main-photo {
+    margin-top: 2%;
+}
+
+.person-photo {
+    width: 154px;
+    height: 154px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Checker.png);
+}
+
+.person-info {
+    height: 53px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.person-name {
+    font-size: 33px;
+}
+
+.btn-primary {
+    width: 97px;
+    height: 29px;
+    background: #4094EF;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navigation-line {
+    border: 1px solid rgba(219, 219, 219, 1);
+    width: 1050px;
+    position: relative;
+}
+
+.selected-option-in-nav-line {
+    position: absolute;
+    border: 1px solid black;
+    top: 0;
+    left: 41%;
+    width: 6%;
+}
+
+.message-counter {
+    width: 18px;
+    height: 18px;
+    background-color: #DC565B;
+    border-radius: 50%;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 39%;
+    bottom: 50%;
+}
+
+.navigation {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.navigation img {
+    margin-bottom: 8%;
+}
+
+.dropdown-toggle {
+    width: 33px;
+    height: 29px;
+}
+
+.fa-ellipsis {
+    margin-left: 15px;
+}
+
+.search {
+    background-color: transparent;
+    border: 1px solid rgba(219, 219, 219, 1);
+    width: 216px;
+    height: 29px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.posts-list {
+    width: 1050px;
+    height: auto;
+}
+
+.posts-list div:first-child {
+    margin-left: 0 !important;
+}
+
+.posts-list div:last-child {
+    margin-right: 0 !important;
+}
+
+.box {
+    height: 297px;
+    width: 297px;
+    background-color: black;
+
+    flex: 1 0 0%;
+    margin: 25px;
+    margin-top: 0 !important;
+
+}
+
+.options-section {
+    width: 1050px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+
+.action-items img {
+    height: 22px;
+}
+
+.action-items img:first-child {
+    margin-left: 80px;
+}
+
+.action-items {
+    position: relative;
+}
